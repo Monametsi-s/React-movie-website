@@ -1,26 +1,11 @@
 
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
   return (
-    <div >
-      <Text text="Monametsi"/>
-    </div>
-    //JSX yntax
-    //A component - Any function in Javascript that returns some 
-    //kind of JSX code.
-    //They start with a capital letter. Here App is a component
-    //Jsx components returns only one parent element
-    //fragments are empty html elements that allows us to return multiple parent elements
-  )
-}
-
-function Text({text}) {
-  return (
-    <div>
-      <p>Hello {text}</p>
-    </div>
-  )
+    <Home />
+  );
 }
 export default App
