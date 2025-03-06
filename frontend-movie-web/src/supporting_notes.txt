@@ -24,3 +24,8 @@ function Text({text}) {
   )
 }
 export default App
+
+
+State is something where once it is updated, 
+the component will change and re render itself
+to show thwe new state.
