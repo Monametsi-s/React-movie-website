@@ -29,3 +29,10 @@ export default App
 State is something where once it is updated, 
 the component will change and re render itself
 to show thwe new state.
+
+Api files seperate
+It's usually a good practice to create a 
+separate file that contains all of my API calls
+so that I can keep all the networking operations 
+or stuff related to the API in a separate file and
+find it easily.
