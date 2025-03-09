@@ -3,20 +3,20 @@ import './css/App.css'
 import Home from './pages/Home'
 import Favorites from './pages/Favorites'
 import {Routes, Route} from 'react-router-dom'
+import { MovieProvider } from './contexts/MovieContext'
 import NavBar from './components/NavBar'
-
 
 function App() {
   return (
-    <div>
+    <MovieProvider>
       <NavBar></NavBar>
       <main className="main-content" >
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/favourites" element={<Favorites />} />
+          <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </main>
-    </div>
+    </MovieProvider>
   );
 }
 export default App
