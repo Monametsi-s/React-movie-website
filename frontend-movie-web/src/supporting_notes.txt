@@ -40,3 +40,13 @@ find it easily.
 The useEffect allows me to add side effects to my
 functions or to my components and define when they
 should run 
+
+A context will allow state to be globally available 
+to anything that's within the provided context
+
+Children is a reserved prop when you write a 
+component and children is anything that's inside 
+of the component that you rendered.
+
+Local storage allows us to store values directly
+within our browser.
